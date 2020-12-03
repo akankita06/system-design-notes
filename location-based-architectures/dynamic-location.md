@@ -44,6 +44,7 @@ Better performance
 
 ### Requirements
 **Functional**
+
 2 types of users - Drivers + Customers
 - Drivers notify customers of their availability to pick passengers
 - Passengers see all nearby available drivers
