@@ -6,4 +6,4 @@
 
 
 ## Columnar DB
-![Columnar DB](../images/columnar db/png)
+![Columnar DB](images/columnarDB.png)
