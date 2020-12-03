@@ -8,8 +8,10 @@
 - [ ] Dynamic location - eg: tinder, uber
 - [ ] Google maps
 
+## Concepts
+
 ### Databases / Storage
-- [ ] Wide col - HBase, Cassandra
+- [ ] Wide-col - eg : HBase, Cassandra
 - [ ] KV Storage - eg : DynamoDB
 - [ ] Blob storage - eg : S3
 - [ ] Time series DB
@@ -17,3 +19,4 @@
 - [ ] SQL vs NoSQL DB
 - [ ] Materialized view
 - [ ] Caching
+- [ ] Why and when to use which DB
