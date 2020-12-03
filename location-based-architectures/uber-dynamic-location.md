@@ -1,3 +1,9 @@
+### Similar architectures
+- uber
+- lyft
+- friends nearby
+- tinder
+
 ### Resources
 - [uber architecture - microservices](https://www.codekarle.com/system-design/Uber-system-design.html)
 - [uber - gsdi](https://www.educative.io/courses/grokking-the-system-design-interview/YQVkjp548NM)
