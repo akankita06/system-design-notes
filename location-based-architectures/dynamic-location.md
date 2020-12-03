@@ -36,8 +36,6 @@
 You can use hybrid - where number of friends for a person is really large - like 10's of 1000s so you don't overload the system during push. You can poll for them.
 
 Better performance
-Better performance
-
 - only send updates real-time to online/active users
 - Others for push notifiation when they are offline can be delayed
 - Frequency can be altered for getting and pushing updates. Eg: Only send updates after every 5th update when someone is moving or when they are 0.1 mile apart from prev stop.
@@ -119,3 +117,12 @@ Solution -
     - AS will send notification to top drivers - whichever accepts first gets assigned the ride
         - other drivers get cancellationr request
     - once driver accepts request, customer gets notified
+    
+### Others
+
+**Fault Tolerance**
+- Replicas - notification servers, DriverLocation servers - if one dies, other takes over
+- Also store data in persistent storage like SSDs that can provide fast IOs (to recover if primary/secondary if both fail)
+
+**Ranking**
+Store popularity number in quad tree - get top 10 drivers from the quad tree ranked by popularity
