@@ -60,9 +60,9 @@ Better performance
 - 1M daily ridespointer takes 8 bytes
 
 ### Algorithm
-Similar to Yelp
+- Similar to Yelp
 
-Difference - **dynamic updates on quad tree for driver**'s and customer's current location
+- Difference - **dynamic updates on quad tree for driver**'s and customer's current location
 
 - Active drivers report their location every 3 sec - need Qaudtree udpate to reflect that - resource intensive
     - find the right grid based on drivers previous location
@@ -71,7 +71,7 @@ Difference - **dynamic updates on quad tree for driver**'s and customer's curre
 - How to quickly propogate updates to Quadtree ?
 - How to notify customes and drivers about location updates when ride is in progress ?
 
-Solution -
+Solution
 
 - Donot modify Quadtree every time driver reports new location
     - beats the purpose - Quadtree was to efficiently find nearby drivers
@@ -125,4 +125,4 @@ Solution -
 - Also store data in persistent storage like SSDs that can provide fast IOs (to recover if primary/secondary if both fail)
 
 **Ranking**
-Store popularity number in quad tree - get top 10 drivers from the quad tree ranked by popularity
+- Store popularity number in quad tree - get top 10 drivers from the quad tree ranked by popularity
