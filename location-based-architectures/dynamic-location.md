@@ -17,4 +17,4 @@
 - subscribe customers to the drivers (when they request a ride) to give them most up-to-date location of the nearby drivers
 
 ### Qs
-- how are shortest routes stored between point a and point b? 
+- how are shortest routes stored between point-A and point-B? 
