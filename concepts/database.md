@@ -38,7 +38,7 @@
     - [hbase read write path - better explanation](https://acadgild.com/blog/read-write-operations-hbase)
     
 - **components**
-  ![HBase Components](images/hdfs1.png)
+  ![HBase Components](https://github.com/akankita06/system-design-notes/blob/main/images/hdfs1.png)
   - HMaster
   - HRegionServer
   - HRegions
@@ -48,7 +48,7 @@
 - master-slave architecture
 
 - **read-write path**
-  ![HBase read write path](images/hdfs2.png)
+  ![HBase read write path](https://github.com/akankita06/system-design-notes/blob/main/images/hdfs2.png)
 
 - **write path**
     - write imp. logs to write ahead log (for fault tolerance). Later if any error occurs, HBase looks into WAL
