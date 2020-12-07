@@ -1,3 +1,4 @@
+
 ### Microservices
 
 - [defog tech youtube channel](https://www.youtube.com/playlist?list=PLhfHPmPYPPRk5WxsLhQIOEznHEeFJAoVM)
@@ -126,3 +127,12 @@
 - response from the proxy server is returned as if it came directly from the original server, leaving the client with no knowledge of the original server
 - can be used for load balancing, caching, security, logging, compression, encryotion/SSL, etc.
 
+
+### Good API Design
+- Consistency
+- Stability - not changing a lot + extensible from the start+ backwards compatible
+- Responses correct - handling all use cases
+- Not a lot of unnecessary http requests - eg use batch endpoint when needed
+- Idempotent
+- Concise
+- Easy to use and understand
