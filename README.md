@@ -28,3 +28,4 @@
 - [ ] REST APIs
 - [ ] GraphQL APIs
 - [ ] Protocols - REST, GraphQL, RPC, web socket
+- [ ] HTTP verbs
