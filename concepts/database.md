@@ -18,7 +18,7 @@
 - retrieve multiple related records
 - Like a 2d hash table, value of reach hash is a b tree
 - Analogy - library - u forest define which section/ collection u want the book from ( say fiction). Within that collection the values are sorted based on an index. U can then fetch the record or take off records u want.
-![Columnar DB](images/columnarDB.png)
+![Columnar DB](https://github.com/akankita06/system-design-notes/blob/main/images/columnarDB.png)
 
 
 ## HBase
