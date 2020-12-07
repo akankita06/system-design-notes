@@ -21,4 +21,44 @@
 ![Columnar DB](images/columnarDB.png)
 
 
-## Cassandra
+## HBase
+- **resources**
+    - [guru 99 blog](https://www.guru99.com/hbase-architecture-data-flow-usecases.html)
+    - [hbase read and write path](https://data-flair.training/blogs/hbase-operations/)
+    - [hbase read write path - better explanation](https://acadgild.com/blog/read-write-operations-hbase)
+   
+- **resources**
+    - [guru 99 blog](https://www.guru99.com/hbase-architecture-data-flow-usecases.html)
+    - [hbase read and write path](https://data-flair.training/blogs/hbase-operations/)
+    - [hbase read write path - better explanation](https://acadgild.com/blog/read-write-operations-hbase)
+    
+- **resources**
+    - [guru 99 blog](https://www.guru99.com/hbase-architecture-data-flow-usecases.html)
+    - [hbase read and write path](https://data-flair.training/blogs/hbase-operations/)
+    - [hbase read write path - better explanation](https://acadgild.com/blog/read-write-operations-hbase)
+    
+- **components**
+
+- HMaster
+- HRegionServer
+- HRegions
+- Zookeeper
+
+- **architecture**
+- master-slave architecture
+
+- **read-write path**
+
+- **write path**
+    - write imp. logs to write ahead log (for fault tolerance). Later if any error occurs, HBase looks into WAL
+    - data to be written is forwarded to memstore (RAM of the data node) as soon as log entry is done.
+        - all data is written in memstore - faster than RDBMS
+    - data is dumped into HFile, where actual data is stored in HDFS. If memcache is full, data is stored in HFile directly.
+    - ack is sent to client
+    
+- **read path**
+    - zookeeper has location for META table which is present in HRegion server. When client requests zookeeper, it gives the address for the table
+    - from META table of HRegionServer, client gets region address of table where data is present
+    - in HRegion, check BlockCache for data from prev read
+    - if data not found, search MemStore (since data would have been written to HFile sometime back)
+    - if data not found, read from HFile + write to BlockCache for future reads
