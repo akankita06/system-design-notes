@@ -20,3 +20,11 @@
 - [ ] Materialized view
 - [ ] Caching
 - [ ] Why and when to use which DB
+
+
+### Microservices
+- [ ]  MS docs on API design
+- [ ] API gateway, proxy, rev proxy, other components
+- [ ] REST APIs
+- [ ] GraphQL APIs
+- [ ] Protocols - REST, GraphQL, RPC, web socket
