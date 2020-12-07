@@ -38,16 +38,17 @@
     - [hbase read write path - better explanation](https://acadgild.com/blog/read-write-operations-hbase)
     
 - **components**
-
-- HMaster
-- HRegionServer
-- HRegions
-- Zookeeper
+  ![HBase Components](images/hdfs1.png)
+  - HMaster
+  - HRegionServer
+  - HRegions
+  - Zookeeper
 
 - **architecture**
 - master-slave architecture
 
 - **read-write path**
+  ![HBase read write path](images/hdfs2.png)
 
 - **write path**
     - write imp. logs to write ahead log (for fault tolerance). Later if any error occurs, HBase looks into WAL
