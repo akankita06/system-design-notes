@@ -45,7 +45,7 @@
   - Zookeeper
 
 - **architecture**
-- master-slave architecture
+-   master-slave architecture
 
 - **read-write path**
   ![HBase read write path](https://github.com/akankita06/system-design-notes/blob/main/images/hdfs2.png)
