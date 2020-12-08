@@ -3,7 +3,7 @@
 - [https://www.sciencedirect.com/topics/computer-science/performance-optimization](https://www.sciencedirect.com/topics/computer-science/performance-optimization)
 
 ### Front end
-[frontend](https://github.com/akankita06/system-design-notes/blob/main/images/webperformance.jpeg)
+![frontend](https://github.com/akankita06/system-design-notes/blob/main/images/webperformance.jpeg)
 
 - Minimize http request - can all the data at once instead of sending a request for every data needed
 - Minifying a file involves removing unnecessary formatting, whitespace, and code.
