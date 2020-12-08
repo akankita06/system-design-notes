@@ -1,0 +1,10 @@
+- Encryption
+- Send email messages through queue
+- Storage
+- Image or attachments included
+- Prioritization of emails - bulk emails lowest priority, immediate emails highest priority
+- Filtering - Spam , antivirus
+- Status update - delivered, read
+- Read receipts
+- Group messages
+- Email scheduled
