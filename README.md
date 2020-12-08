@@ -29,6 +29,36 @@ ingestion(upstream) -> main component -> outgoing(downstream)
 - [ ] S3
 - [ ] dropbox/gdrive - cloud based storage
 
+### Other architectures
+- [ ] tinyurl
+- [ ] marketplace
+- [ ] gdocs (collaboration + versioning)
+- [ ] gmail (+ encrypted gmail)
+- [ ] google translate 
+- [ ] search
+- [ ] leaderboard
+- [ ] recommendations
+- [ ] People you may know (LI)
+- [ ] multiplayer gaming systems
+- [ ] password manager
+- [ ] stock exchange
+- [ ] scale push notifications
+- [ ] ads
+- [ ] payments (wallet + payment service + with QR code)
+- [ ] slack
+
+### Company infrastructure
+- [ ] i18n
+- [ ] experimentation
+- [ ] logging and metrics
+- [ ] analytics
+- [ ] job scheduler
+- [ ] rate limiter
+- [ ] typeahead suggestor
+- [ ] deployment strategies
+- [ ] key generation
+- [ ] autocomplete in elasticsearch
+
 ## Concepts
 - [ ] FAQ
 - [ ] scaling
