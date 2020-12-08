@@ -3,7 +3,7 @@
 - [zookeeper election](https://www.tutorialspoint.com/zookeeper/zookeeper_leader_election.htm)
 &nbsp;
 
-### Use cases**
+### Use cases
 - which node is master
 - which task is assigned to which worker
 - which workers are available
