@@ -39,3 +39,23 @@
 - [ ] how browser works
 - [ ] client fetching data directly from microservcies vs doing it on the backend (pros and cons)
 - [ ] how to improve web page performance
+
+
+### Web security
+- [ ] web security
+- [ ] implement firewall
+- [ ] other vulnerabilities
+- [ ] phishing website
+- [ ] DHCP
+- [ ] SQL injection
+- [ ] encryption algorithms
+- [ ] https + https + tls/ssl + ssh
+- [ ] oauth + openIdConnect
+- [ ] JWT token
+- [ ] DNS + DDoS
+- [ ] VPN
+- [ ] 2 factor authentication + multi-factor authentication
+- [ ] single sign on
+- [ ] how login page works
+
+
