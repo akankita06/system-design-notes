@@ -7,6 +7,14 @@
 - [ ] Dynamic location - eg: tinder, uber
 - [ ] Google maps
 
+### Streaming-based
+- [ ] Whatsapp chat
+- [ ] audio calls - 1-1, group calls
+- [ ] music streaming
+- [ ] video streaming (youtube, netflix)
+- [ ] video conference (Zoom, FB live)
+
+
 ## Concepts
 
 ### Databases / Storage
