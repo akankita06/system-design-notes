@@ -1,0 +1,8 @@
+- aka trending
+- aka leaderboard
+- uses count-min sketch + heap
+- spark streaming
+- [https://www.youtube.com/watch?v=kx-XDoPjoHw&ab_channel=SystemDesignInterview](https://www.youtube.com/watch?v=kx-XDoPjoHw&ab_channel=SystemDesignInterview)
+- [https://www.youtube.com/watch?v=ibxXO-b14j4&ab_channel=TechDummies](https://www.youtube.com/watch?v=ibxXO-b14j4&ab_channel=TechDummies)
+- [https://www.youtube.com/watch?v=CA-ei3mOCf4&ab_channel=ReachGoals](https://www.youtube.com/watch?v=CA-ei3mOCf4&ab_channel=ReachGoals)
+- fast (less accurate) and slow (most accurate)  pipeline + syncing or stitching the results of 2 pipelines
