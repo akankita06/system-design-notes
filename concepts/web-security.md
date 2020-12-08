@@ -111,7 +111,6 @@ client vs server vs implemented in both
 
 &nbsp;
 
-## VPN
 ### Firewall:
 - [What is a firewall](https://www.youtube.com/watch?v=kDEX1HXybrU&ab_channel=PowerCertAnimatedVideos)
 - [firewall and network security](https://www.youtube.com/watch?v=XEqnE_sDzSk&ab_channel=Dr.DanielSoper)
