@@ -1,7 +1,6 @@
+### Firewall:
 - [What is a firewall](https://www.youtube.com/watch?v=kDEX1HXybrU&ab_channel=PowerCertAnimatedVideos)
 - [firewall and network security](https://www.youtube.com/watch?v=XEqnE_sDzSk&ab_channel=Dr.DanielSoper)
-
-
 - on network and transport layer
 - can implement NAT to hide internal network structure from outside world
 
