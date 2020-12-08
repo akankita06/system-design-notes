@@ -22,6 +22,12 @@
 - [ ] trending
 - [ ] notification
 
+### Storage
+- [ ] distributed cache
+- [ ] dist. message queue
+- [ ] S3
+- [ ] dropbox/gdrive - cloud based storage
+
 ## Concepts
 
 ### Databases / Storage
