@@ -5,6 +5,9 @@
 
 &nbsp;
 
+![whatsapp 1](https://github.com/akankita06/system-design-notes/blob/main/images/streaming1.png)
+![whatsapp 2](https://github.com/akankita06/system-design-notes/blob/main/images/streaming2.png)
+
 ### Data storage
 
 - HBase or cassandra - columnar
