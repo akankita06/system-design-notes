@@ -30,6 +30,18 @@ ingestion(upstream) -> main component -> outgoing(downstream)
 - [ ] dropbox/gdrive - cloud based storage
 
 ## Concepts
+- [ ] FAQ
+- [ ] scaling
+- [ ] capacity estimates
+
+## n/w, algos, protocols
+- [ ] how DNS works
+- [ ] consensus algo
+- [ ] gossip protocol
+- [ ] TCP/UDP
+- [ ] http, https, tls, ssh, ssl
+- [ ] SFTP, SMTP
+- [ ] NAT, DHCP
 
 ### Databases / Storage
 - [ ] Wide-col - eg : HBase, Cassandra
