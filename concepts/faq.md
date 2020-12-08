@@ -31,16 +31,6 @@
 - DB has - tables, indexes, stored procedures, etc
 &nbsp;
 
-### Table vs database
-- table - object inside DB
-- DB has - tables, indexes, stored procedures, etc
-&nbsp;
-
-### Table vs database
-- table - object inside DB
-- DB has - tables, indexes, stored procedures, etc
-&nbsp;
-
 ### Recursive vs iterative
 - **Recursive vs Iterative**
   - [Stack overflow](https://stackoverflow.com/questions/2651112/is-recursion-ever-faster-than-looping)
@@ -125,12 +115,12 @@
   - clients can make same call repeatedly while producing the same result
   - while idempotent operations produce the same result on the server (no side effects), the response itself may not be the same (eg: a resource's state may change between requests)
   ![idempotence1](https://github.com/akankita06/system-design-notes/blob/main/images/idempotence1.png)
-  ![idempotence2](https://github.com/akankita06/system-design-notes/blob/main/images/idempotence2.png)
   &nbsp;
   
 - **wiki**
   - prop of certain operations that can be applied multiple times without changing the reuslt beyond the initial application
   - HTTP requests that are idempotent
+  ![idempotence2](https://github.com/akankita06/system-design-notes/blob/main/images/idempotence2.png)
  &nbsp;
  
 - **benefits**
