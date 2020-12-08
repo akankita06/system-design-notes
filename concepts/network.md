@@ -4,3 +4,6 @@
 ![smtp](https://github.com/akankita06/system-design-notes/blob/main/images/smtp.png)
 &nbsp;
 
+## NAT
+- [https://www.youtube.com/watch?v=FTUV0t6JaDA&ab_channel=PowerCertAnimatedVideos](https://www.youtube.com/watch?v=FTUV0t6JaDA&ab_channel=PowerCertAnimatedVideos)
+- [https://www.youtube.com/watch?v=01ajHxPLxAw&ab_channel=Computerphile](https://www.youtube.com/watch?v=01ajHxPLxAw&ab_channel=Computerphile)
