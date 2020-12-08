@@ -1,5 +1,6 @@
 - Twitter resource - code karle
 - [Snapchat stories](https://www.youtube.com/watch?v=WUleQzu9l_8&list=WL&index=2&t=759s&ab_channel=AmazonWebServices)
+- notification resource - code karle
 
 &nbsp;
 
