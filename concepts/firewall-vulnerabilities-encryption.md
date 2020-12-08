@@ -3,7 +3,7 @@
 - [firewall and network security](https://www.youtube.com/watch?v=XEqnE_sDzSk&ab_channel=Dr.DanielSoper)
 - on network and transport layer
 - can implement NAT to hide internal network structure from outside world
-
+&nbsp;
 
 #### Types:
 
@@ -24,8 +24,14 @@
     - to implement VPNs
     
 - others
-
+&nbsp;
 
 ### Other vulnerabilities
 - CSRF (cross site request forgery) - wiki
 - [Session hijacking or cookie stealing or man-in-the-middle attack](https://en.wikipedia.org/wiki/Session_hijacking#Prevention)
+&nbsp;
+
+### Encryption algos
+- HAshing algos like SHA1 ,etc. are not exactly  encryption algos since htey cannot be decrypted
+- they are more for verification
+- as they are 1 directional, you can't get the message back if you give the hash
