@@ -1,5 +1,6 @@
 
 ## Architectures
+ingestion(upstream) -> main component -> outgoing(downstream)
 
 ### Location-based
 - [ ] Geohashing
