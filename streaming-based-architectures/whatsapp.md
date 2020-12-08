@@ -126,8 +126,11 @@
 - data model:
 
 `messages (message_id, thread_id, user_id, message)
+
 threads (thread_id, user_id(creator), created_at, last_modified_at, flags, metadata_columns)
+
 user_threads (thread_id, user_id(participant), last_message_at, flags)`
+
 
 creator user id for threads/groups - so that the thread does not become an orphan if everyone is removed
 
@@ -138,10 +141,15 @@ creator user id for threads/groups - so that the thread does not become an orpha
 - indexes required
 
 `users: - key(id), other identifiers (like email)
+
 threads: - key(id)
+
 messages: - key(id), - key(thread_id), - key(thread_id, created_at) to load thread
+
 user_threads: - key(id) - key(thread_id, user_id): to load all the participants of a thread, and update the thread flagsc - key(user_id, last_message_at): to load the index in order
+
 thread_attachments: - key(thread_id): to find all attachments of a thread - key(attachment_type, attachment_id): to find thread by attachments
+
 thread_participant_hashes: - participant_hash: to find thread by participants`
 
 &nbsp;
