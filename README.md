@@ -34,7 +34,24 @@ ingestion(upstream) -> main component -> outgoing(downstream)
 - [ ] scaling
 - [ ] capacity estimates
 
-## n/w, algos, protocols
+### Others
+- [ ] garbage collection - fragmentation/de-fragmentation
+- [ ] LSM trees
+- [ ] zookeeper
+- [ ] spark (batching + streaming)
+- [ ] kafka
+- [ ] elasticsearch
+- [ ] how to isolate and debug an issue
+- [ ] distributed transactions
+- [ ] distributed locks
+- [ ] locks - optimistic, pessimistic
+- [ ] nessage broadcasting
+- [ ] caching
+- [ ] memory overflow
+- [ ] log tracing
+- [ ] logstash
+
+### N/w, algos, protocols
 - [ ] how DNS works
 - [ ] consensus algo
 - [ ] gossip protocol
