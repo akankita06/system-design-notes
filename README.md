@@ -1,4 +1,3 @@
-# system-design-notes
 
 ## Architectures
 
