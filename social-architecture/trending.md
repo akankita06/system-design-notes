@@ -5,6 +5,9 @@
 
 &nbsp;
 
+![trending](https://github.com/akankita06/system-design-notes/blob/main/images/trending.png)
+&nbsp;
+
 **for geo based or feature based trends**
 
 - index on that feature in database
