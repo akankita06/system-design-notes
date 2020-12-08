@@ -28,4 +28,14 @@
 - [ ] REST APIs
 - [ ] GraphQL APIs
 - [ ] Protocols - REST, GraphQL, RPC, web socket
-- [ ] HTTP verbs
+- [ ] HTTP verbs + idempotency
+
+
+### Frontend
+- [ ] sessions + sticky sessions
+- [ ] cookies
+- [ ] local storage
+- [ ] bloom filter
+- [ ] how browser works
+- [ ] client fetching data directly from microservcies vs doing it on the backend (pros and cons)
+- [ ] how to improve web page performance
