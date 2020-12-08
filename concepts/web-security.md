@@ -2,6 +2,8 @@
 - Authentication - you are who you say you are
 - Authorization - you have permissions to access the resources
 
+&nbsp;
+
 ### OAuth (authorization), OpenIDConnect (authentication + authorization)
 - [OAuth 2.0](https://www.youtube.com/watch?v=CPbvxxslDTU&ab_channel=InterSystemsLearningServices)
 - [OAuth and OpenIDConnect Simplified](https://www.youtube.com/watch?v=996OiexHze0&feature=youtu.be)
@@ -15,11 +17,15 @@
 - openID Connect
 - single sign-on
 
+&nbsp;
+
 ### Authentication vs authorization:
 - authentication - you are who you say you are
 - authorization - you have access permissions for the given resource
   - OpenID connect - openID + oauth
   - Single sign on / okta
+
+&nbsp;
 
 ### secure web application
 - strong pwds
@@ -33,6 +39,7 @@
 client vs server vs implemented in both
 - [firewall implementation](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/firewalls/)
 
+&nbsp;
 
 ### HTTP, HTTPS, SSH, TLS, SSL
 - [explanation](https://www.youtube.com/watch?v=hExRDVZHhig&ab_channel=PowerCertAnimatedVideos)
@@ -55,6 +62,7 @@ client vs server vs implemented in both
 
 **TLS**
 - [handshake breakdown](https://www.youtube.com/watch?v=cuR05y_2Gxc&ab_channel=F5DevCentral)
+
 &nbsp;
 
 ### JWT
@@ -69,6 +77,7 @@ client vs server vs implemented in both
 - just by password - easy to get the password through mechanisms like phishing, key logger ,etc .
 - [what is 2FA](https://www.youtube.com/watch?v=0mvCeNsTa1g&ab_channel=DuoSecurity)
 - [Computerphile](https://www.youtube.com/watch?v=ZXFYT-BG2So&ab_channel=Computerphile)
+&nbsp;
 
 **Factors:**
 - what you know (passwords)
@@ -99,4 +108,49 @@ client vs server vs implemented in both
 ### DDoS and DNS
 - [https://www.youtube.com/watch?v=mpQZVYPuDGU&ab_channel=PowerCertAnimatedVideos](https://www.youtube.com/watch?v=mpQZVYPuDGU&ab_channel=PowerCertAnimatedVideos)
 - [https://www.youtube.com/watch?v=ilhGh9CEIwM&ab_channel=PowerCertAnimatedVideos](https://www.youtube.com/watch?v=ilhGh9CEIwM&ab_channel=PowerCertAnimatedVideos)
+
+&nbsp;
+
+## VPN
+### Firewall:
+- [What is a firewall](https://www.youtube.com/watch?v=kDEX1HXybrU&ab_channel=PowerCertAnimatedVideos)
+- [firewall and network security](https://www.youtube.com/watch?v=XEqnE_sDzSk&ab_channel=Dr.DanielSoper)
+- on network and transport layer
+- can implement NAT to hide internal network structure from outside world
+
+&nbsp;
+
+#### Types:
+
+- packet filtering gateways - examine source IP, destination IP, protocol for packet
+- stateful inspection firewalls
+    - considers state or context of the packets
+    - "remembers" the network activities of the host
+    - to identify hosts that are a threat
+    
+- application proxy gateways
+    - runs pseudo applications which mimic the proper behaviour of the real applications
+    - mimics packets travelling between applications inside n/w boundary and application users outuse n/w boundary
+    - fitlers out unacceptable protocol commands , or other malformed commands
+    
+- circuit level gateways
+    - firewall that enables one network to become a virtual extension of another network
+    - examine whether packets are sent to or received from a target network
+    - to implement VPNs
+    
+- others
+
+&nbsp;
+
+### Other vulnerabilities
+- CSRF (cross site request forgery) - wiki
+- [Session hijacking or cookie stealing or man-in-the-middle attack](https://en.wikipedia.org/wiki/Session_hijacking#Prevention)
+
+&nbsp;
+
+### Encryption algos
+- HAshing algos like SHA1 ,etc. are not exactly  encryption algos since htey cannot be decrypted
+- they are more for verification
+- as they are 1 directional, you can't get the message back if you give the hash
+
 
