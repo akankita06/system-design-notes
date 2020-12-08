@@ -14,6 +14,13 @@
 - [ ] video streaming (youtube, netflix)
 - [ ] video conference (Zoom, FB live)
 
+### Social
+- [ ] twitter
+- [ ] twitter search
+- [ ] instagram, FB (newsfeed generation + publishing)
+- [ ] friends, posts, comments, reviews
+- [ ] trending
+- [ ] notification
 
 ## Concepts
 
