@@ -5,6 +5,7 @@
 - on network and transport layer
 - can implement NAT to hide internal network structure from outside world
 
+
 #### Types:
 
 - packet filtering gateways - examine source IP, destination IP, protocol for packet
@@ -24,3 +25,8 @@
     - to implement VPNs
     
 - others
+
+
+### Other vulnerabilities
+- CSRF (cross site request forgery) - wiki
+- [Session hijacking or cookie stealing or man-in-the-middle attack](https://en.wikipedia.org/wiki/Session_hijacking#Prevention)
