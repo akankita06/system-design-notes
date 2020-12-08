@@ -20,11 +20,16 @@
 - reads vs writes
 - master slave vs p2p (pros and cons)
 - consistent hashing
+- large number of virtual shards, distribute to lower number of physical nodes. For scaling - add more physical nodes and virtual shards can redistribute. 
+- routing:
+  - master machines responsible for routing with master-master replication
+  - p2p - all nodes have a copy of configuration
+  - if client keep info - it will complicate the client - not ideal
 - gossip vs master-slave for data replication (trade-offs)
   - gossip - a lot of network traffic for p2p
   - master-slave - single point of failure
   - master-master ?
-  
+ 
 
 ## Considerations
 considerations:
