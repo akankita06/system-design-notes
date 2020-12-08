@@ -55,4 +55,48 @@ client vs server vs implemented in both
 
 **TLS**
 - [handshake breakdown](https://www.youtube.com/watch?v=cuR05y_2Gxc&ab_channel=F5DevCentral)
+&nbsp;
+
+### JWT
+- [https://www.youtube.com/watch?v=soGRyl9ztjI&ab_channel=JavaBrains](https://www.youtube.com/watch?v=soGRyl9ztjI&ab_channel=JavaBrains)
+- [https://www.youtube.com/watch?v=_XbXkVdoG_0&ab_channel=JavaBrains](https://www.youtube.com/watch?v=_XbXkVdoG_0&ab_channel=JavaBrains)
+- not for sending sensitive information or security
+- it is just to verify who the user is and get their information - not to authenticate the users.
+
+&nbsp;
+
+### 2FA (or multifactor authentication)
+- just by password - easy to get the password through mechanisms like phishing, key logger ,etc .
+- [what is 2FA](https://www.youtube.com/watch?v=0mvCeNsTa1g&ab_channel=DuoSecurity)
+- [Computerphile](https://www.youtube.com/watch?v=ZXFYT-BG2So&ab_channel=Computerphile)
+
+**Factors:**
+- what you know (passwords)
+- what you are (biometrics)
+- what you have (phone, bank card, yubikey, etc.)
+&nbsp;
+
+- multifactor - more than 1 of the above factors
+- for authentication of the client / user only 
+- for server authentication - HTTPS - certificates 
+- [https://www.youtube.com/watch?v=hGRii5f_uSc&ab_channel=TomScott](https://www.youtube.com/watch?v=hGRii5f_uSc&ab_channel=TomScott)
+- [how to build it](https://www.gosquared.com/blog/building-two-factor-authentication)
+- invalidate the code once it has been used so it cannot be used again
+- [how a yubikey works](https://www.youtube.com/watch?v=MffUKM6HnYY&ab_channel=WIREDUK)
+- yubikey always sends the data to the exact website where it is supposed to + you don't need to enter any password -   and so prevents phishing
+
+&nbsp;
+
+### VPN
+- privacy (location or IP not disclosed)
+- secure (data encrypted)
+- anonymous  (they don't know who you are, change your location)
+- [what is VPN](https://www.youtube.com/watch?v=_wQTRMBAvzg&ab_channel=vpnMentor)
+- [VPN explained](https://www.youtube.com/watch?v=xGjGQ24cXAY&ab_channel=AndroidAuthority)
+
+&nbsp;
+
+### DDoS and DNS
+- [https://www.youtube.com/watch?v=mpQZVYPuDGU&ab_channel=PowerCertAnimatedVideos](https://www.youtube.com/watch?v=mpQZVYPuDGU&ab_channel=PowerCertAnimatedVideos)
+- [https://www.youtube.com/watch?v=ilhGh9CEIwM&ab_channel=PowerCertAnimatedVideos](https://www.youtube.com/watch?v=ilhGh9CEIwM&ab_channel=PowerCertAnimatedVideos)
 
