@@ -23,7 +23,7 @@
 - Library - gets compiled within your program
 - Service - access service to get the data, compiled independently of your program
   ![libsvc1](https://github.com/akankita06/system-design-notes/blob/main/images/libsvc1.png)
-  ![libsvc2](https://github.com/akankita06/system-design-notes/blob/main/images/libsvc1.png)
+  ![libsvc2](https://github.com/akankita06/system-design-notes/blob/main/images/libsvc2.png)
  &nbsp;
  
  ### Table vs database
@@ -124,6 +124,8 @@
   - making multiple identical requests has the same effect as making a single request
   - clients can make same call repeatedly while producing the same result
   - while idempotent operations produce the same result on the server (no side effects), the response itself may not be the same (eg: a resource's state may change between requests)
+  ![idempotence1](https://github.com/akankita06/system-design-notes/blob/main/images/idempotence1.png)
+  ![idempotence2](https://github.com/akankita06/system-design-notes/blob/main/images/idempotence2.png)
   &nbsp;
   
 - **wiki**
