@@ -1,0 +1,2 @@
+- [https://youtu.be/BKZxZwUgL3Y](https://youtu.be/BKZxZwUgL3Y)
+- Detect duplicates using HEAD request which points to last updated time for a page
