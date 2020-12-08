@@ -125,8 +125,10 @@
  
 - **benefits**
   - request failures happen. Provide users a safe way to retry requests.
-  ```POST /BankAccount/AddFunds
-       { 'value':1000, 'token':'TX123' }```
+  ```
+  POST /BankAccount/AddFunds
+  { 'value':1000, 'token':'TX123' }
+  ```
        
  
   
